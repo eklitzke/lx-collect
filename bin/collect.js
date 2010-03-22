@@ -17,4 +17,7 @@ for (i = 0; i < config.length; i++) {
     api.registerModule(c, "lx_cpu");
     api.registerModule(c, "lx_memory");
 }
-api.setSchedule(api.uploadAll, 10000);
+
+setTimeout(function () {
+    api.setSchedule(api.uploadAll, 10000);
+}, 1500);
