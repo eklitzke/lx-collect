@@ -1,2 +1,2 @@
 #!/bin/bash
-NODE_PATH=lib node bin/collect.js $@
+NODE_PATH=lib exec node bin/collect.js $@
